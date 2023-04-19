@@ -1,8 +1,136 @@
-/* *{
-  padding: 0px;
-  margin: 0px;
-  box-sizing: border-box;  
-} */
-.LandingPage{
-    display: flex;
+/* .LandingPage{
+    position: relative;
+    z-index: 1;
+    background-color: rgba(0, 47, 255, 0.534);
+    height: 100vh;
+    width: 100%;
+
 }
+.main1{
+    z-index: 1;
+
+    background-color: rgba(128, 128, 128, 0.568);
+    height: 38%;
+    top: 250px;
+    left: 160px;
+    width: 400px;
+    margin-left: 300px;
+    
+    position: absolute;
+
+}
+.admin{
+    border: 2px solid black;
+    margin-left: 70px;
+    height: 20px;
+    width: 200px;
+    margin-bottom: 20px;
+}
+.user {
+    border: 2px solid black;
+    height: 20px;
+    width: 200px;
+    margin-left: 70px;
+
+}
+.user a{
+    text-decoration: none;
+}
+.admin a{
+    text-decoration: none;
+}
+.user:hover{
+    background-color: blue;
+    color: white;
+}
+.admin:hover{
+    background-color: blue;
+    
+}
+.user a:hover{
+    color: white;
+}
+.admin a:hover{
+    color: white;
+}
+
+.main2{
+    margin-top: 50px;
+}
+.main2 h1{
+    margin-left: 80px;
+} */
+
+.LandingPage{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+    margin: 20px;
+    margin-top: 40px;
+    background-color: blue;
+    height: 100vh;
+    position: sticky;
+    
+}
+ /* .imgland{
+    max-width: 100%;
+    position: sticky;
+    background: fixed; 
+} */
+.main1{
+    display: flex;
+    justify-content: center;
+    padding: 60px;
+    font-size: 40px;
+}
+.main2{
+    margin-top: 60px;
+    padding: 20px;
+    margin-left: 20px;
+}
+    
+   
+
+.admin{
+    margin: 80px;
+    
+   
+
+}
+.user{
+    margin: 80px;
+    margin-right: 80px;
+
+}
+.admin a{
+    text-decoration: none;
+    color: blueviolet;
+}
+.user a{
+    text-decoration: none;
+    color: blueviolet;
+
+}
+.admin a:hover{
+background-color: black;
+padding: 10px;
+border-radius: 10px;
+text-transform:scale(0,1);
+}
+
+.user a:hover{
+    background-color: black;
+    padding: 10px;
+    border-radius: 10px;
+    text-transform:scale(0,1);
+    }
+
+
+
+
+
+
+
+
+    

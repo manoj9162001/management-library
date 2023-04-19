@@ -1,21 +1,37 @@
-import React from "react";
-import "../Styles/userlogin.css";
-import { Link } from "react-router-dom";
+import React from 'react'
+import { useRef } from 'react';
+import { useNavigate } from 'react-router-dom'
+import "../styles/userLogin.css"
+// import larrow from "../assets/arrow.png"
+// import userimg from "../assets/userimg.png"
 const UserLogin = () => {
-    return ( 
-        <div className="UserLogin">
-            
-            <div className="form">
-                <form action="">
-                <h1>User Login</h1>
-                    <input type="email" placeholder="Enter Your Email" required minLength={8} maxLength={10} className="box"/><br/>
-                    <input type="password" placeholder="Enter password"  maxLength={8} minLength={6} required className="box"/><br />
-                    <button id="submit">Sign in</button><br />
-                    <Link className="forget" >Forget Password ?</Link>
-                </form>
-            </div>
+  let id = useRef(null);
+  let password = useRef(null)
+  let navigate = useNavigate()
+  let submit = (e) => {
+    // e.preventDefault();
+    if (id.current.value == 'admin@gmail.com' && password.current.value == 12345) {
+      navigate("/userportal");
+    } else {
+      alert("Invalid credentials");
+    }
+  }
+  return (
+    <div className='UserLogin'>
+      <h1>User Login</h1>
+      <form action="" onSubmit={submit}>
+        <div className="login">
+          <input ref={id} type="text" placeholder='enter login id' />
         </div>
-     );
+        <div className="password">
+          <input ref={password} type="text" placeholder='Enter Your Password' />
+        </div>
+        <div className="signIn">
+          <button>Sign In</button>
+        </div>
+      </form>
+    </div>
+  )
 }
- 
-export default UserLogin;
+
+export default UserLogin

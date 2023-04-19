@@ -9,7 +9,7 @@ import vln from '../assets/Volnter.jpg'
 
 import '../styles/adminhome.css'
 
-const AdminHome = () => {
+const UserHome = () => {
   const [disp, setDisp] = useState(false)
   
   let clickhandler = () => {
@@ -18,7 +18,7 @@ const AdminHome = () => {
   return (
     <div className='adminhome1'>
     <div className="nav1">
-      Admin DashBoard.....!
+      User DashBoard.....!
     </div>
     <div className="imgtop" style={{ backgroundImage: `url(${topimg})` }}>
       <div className="txt1">
@@ -134,4 +134,4 @@ const AdminHome = () => {
   )
 }
 
-export default AdminHome
+export default UserHome

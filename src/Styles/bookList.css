@@ -1,0 +1,16 @@
+.bookData{
+    display: flex;
+    justify-content: space-between;
+    width: 33%;
+    
+}
+.bookDetails{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 10px;
+    background: linear-gradient(rgba(255, 166, 0, 0.651),rgba(255, 0, 0, 0.582));
+    width: 170vh;
+}
+.bimg:hover{
+    transform:scale(1.2);
+}

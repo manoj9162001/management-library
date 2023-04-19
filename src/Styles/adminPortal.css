@@ -1,0 +1,14 @@
+
+.main{
+    display: flex;
+    margin: 0;
+    height: 500px;
+    width: 1200px;
+}
+.adminRoute{
+    margin-left: 20px;
+}
+.adminSide {
+    background-color: rgb(156, 132, 179);
+    height:200vh;
+}

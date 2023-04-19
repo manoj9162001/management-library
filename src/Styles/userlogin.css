@@ -1,66 +1,12 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-/* UserLogin */
 .UserLogin{
-    display: flex;
-     height: 500px;
-    width: 800px;
-    border: 1px solid black;
-    margin: auto;
-    margin-top: 50px;
-
-}
-
-
-
-
-.form{
-    display: flex;
-    flex-direction: column;
-    width: 100%;
+    background:crimson;
+    height: 50vh;
+    width: 400px;
+    justify-content: center;
+    border: 2px solid black;
     align-items: center;
-    background-color: antiquewhite;
-
+    margin-left:0px;
 }
-
-.form h1{
-    font-size: 3rmp;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    margin: 60px;
-    padding-left: 20px;
-}
-.box{
-    padding:12px;
-    width: 65%;
-    margin: 20px;
-    border: 1px solid black;
-    outline: none;
-    border-radius: 20px;
-    margin-left: 60px;
-
-}
-#submit{
-    padding: 12px 30px;
-    padding-left: 10px;
-    margin-left: 80px;
-    margin-top: 10px;
-    border: 1px solid black;
-    border-radius: 20px;
-    width: 50%;
-    background-color: black;
-    color: white;
-    font-weight: bold;
-}
-#submit:hover{
-    cursor: pointer;
-    background-color: rgb(164, 52, 52);
-}
-.forget{
-    text-decoration: none;
-    color: black;
-    margin-top: 20px;
+.UserLogin h1{
+  margin-left: 70px;  
 }
